@@ -211,7 +211,7 @@ const options = {
 	directory: argv.directory || null,
 	debug: argv.debug,
 	cmakePath: argv.c || null,
-	generator: argv.G || "Unix Makefiles",
+	generator: argv.G,
 	toolset: argv.t,
 	platform: argv.A,
 	target: argv.T,
